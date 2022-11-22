@@ -5,22 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- css -->
-    <link rel="stylesheet" href="./main.css">
-    <!-- CSS only -->
+
+
+    <!--tipo de letra-->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap" rel="stylesheet">
+
+    <!--  CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="./main.css">
     <title>roda impresiones 3d</title>
 
 </head>
 
 <body>
-    
-    <main>
+
+    <header>
         <p class="text-primary"></p>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">inicio</a>
+                <a class="navbar-brand roda" href="./index.html">Roda
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -29,71 +35,65 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">nosotros</a>
+                            <a class="nav-link active nosotros" aria-current="page" href="./pages/nosotros.html">nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">contacto</a>
+                            <a class="nav-link contacto" href="./pages/contacto.html">contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">tienda</a>
+                            <a class="nav-link tienda" href="./pages/tienda.html">tienda</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle productos" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                profuctos
+                                productos
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">llaveros</a></li>
-                                <li><a class="dropdown-item" href="#">mates</a></li>
-                                <li><a class="dropdown-item" href="#">cortantes</a></li>
-                                <li><a class="dropdown-item" href="#">macetas</a></li>
-                                <li><a class="dropdown-item" href="#">navidad</a></li>
-                                <li><a class="dropdown-item" href="#">boyas con luz</a></li>
+                                <li><a class="dropdown-item llaveros" href="./pages/llaveros.html">llaveros</a></li>
+                                <li><a class="dropdown-item mates" href="./pages/mate.html">mates</a></li>
+                                <li><a class="dropdown-item cortantes" href="./pages/cortantes.html">cortantes</a></li>
+                                <li><a class="dropdown-item macetas" href="./pages/macetas.html">macetas</a></li>
+                                <li><a class="dropdown-item navidad" href="./pages/navidad.html">navidad</a></li>
+                                <li><a class="dropdown-item boyasConLuz" href="./pages/boyasConLuz.html">boyas con luz</a></li>
                             </ul>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <h1> Roda</h1>
-        <h2>impresiones 3d</h2>
-        <h3>rosa y dario</h3>
-        <p>Somos Rosa y Darío.
-
-            Hace poco que empezamos en este mundo del diseño y la impresión en 3D.
-
-            Acá vas a encontrar mates, macetas, cortantes de cookies, llaveros, todo lo que a vos se te ocurra y
-            necesites.
-
-            La ventaja de este sistema es que podemos imprimir un montón de objetos de manera personalizada, con la
-            forma, el color e incluso con el logo que precises.
-
-            También vamos a tener stock generalizado para que retires en el acto.
-
-            ¡¡Acá esta tu nuevo lugar para que tus objetos sean como vos queres!!
-
-            Te esperamos...</p>
-
-        <img src="./logo color-01.jpg" alt="roda impresion 3d premiun" class="logo">
+    </header>
 
 
-    </main>
-    <!--  <div>
-        <ul>
-            <li>llaveros personalizados</li>
-            <li>mates</li>
-            <li>macetas</li>
-        </ul>
-    </div> -->
+    <div class="contenedor">
+        <img class="imagenLogo" src="./assets/logo color-01.jpg" alt="roda impresion 3d premiun" class="logo">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h1 class="center-align titulo">Novedades</h1>
+                
+                <div class="contenedorImg">
+                   <div class="imgProductos">
+                    <li><img class="imgProductos" src="./assets/fotos producto/2 copo rojos y arbol.jpg" alt=""></li>
+                    <li><img class="imgProductos"src="./assets/fotos producto/3 copo 3 achi.jpg" alt=""></li>
+                    <li><img class="imgProductos" src="./assets/fotos producto/3 copo4.jpg" alt=""></li>
+                    <li><img class="imgProductos" src="./assets/fotos producto/angel copo siervopino.jpg" alt=""></li>
+                    </div>
+                </div>
 
 
 
+ 
 
 
+
+            <!-- js -->
+            <link rel="stylesheet" href="main.js">
+            <!-- JavaScript Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+                crossorigin="anonymous"></script>
 </body>
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"></script>
+
 
 </html>
